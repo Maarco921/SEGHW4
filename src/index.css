@@ -1,0 +1,48 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: url(/image/beach.png);
+  background-size: 100%;
+  background-position: top;
+  background-color: white;
+  min-height: 100%;
+}
+
+nav a.active{
+  border-bottom: 5px solid #333;
+  transition: all ease 0.5s;
+}
+.container{
+  margin-top: 20px;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.form-textarea{
+
+  background-color: transparent;
+  
+  }
+.navbar{
+  margin-left: 20px;
+  color: white;
+}
+
+.form{
+  float: left;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
+.home .post img{
+  position: absolute;
+  left: -1px;
+  top: 10px;
+  opacity: 0.6;
+  width: 100px;
+}
+
+.home .post{
+  overflow: hidden;
+  padding-left: 80px;
+}
